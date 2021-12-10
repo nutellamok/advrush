@@ -33,6 +33,7 @@ python pgd_attack.py --test-batch-size 10 --target_arch [target_arch] --target_c
 ## References
 
 DARTS: Differentiable Architecture Search [ICLR '19] [code](https://github.com/quark0/darts) [paper](https://arxiv.org/abs/1806.09055)
+
 Robustness via Curvature Regularization, and Vice Versa [CVPR '19] [code](https://github.com/F-Salehi/CURE_robustness) [paper](https://openaccess.thecvf.com/content_CVPR_2019/papers/Moosavi-Dezfooli_Robustness_via_Curvature_Regularization_and_Vice_Versa_CVPR_2019_paper.pdf)
 
 Tradeoff-inspired Adversarial Defense via Surrogate-loss Minimization [ICML '19] [code](https://github.com/yaodongyu/TRADES) [paper](https://arxiv.org/pdf/1901.08573.pdf)
