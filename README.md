@@ -8,7 +8,7 @@ Python == 3.6.12, PyTorch == 1.2.0, torchvision == 0.4.0
 
 ## AdvRush Search Process
 ```
-cd advrush && python train_search.py --batch_size 32 --gpu 0 --epochs 60 --a_gamma 0.01 --a_warmup_epochs 0 --w_warmup_epochs 60 --loss_hessian loss_cure
+cd advrush && python train_search.py --batch_size 32 --gpu 0 --epochs 60 --a_gamma 0.01 --a_warmup_epochs 50 --w_warmup_epochs 60 --loss_hessian loss_cure
 ```
 
 ## Adversarial Training
